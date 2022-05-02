@@ -1,12 +1,25 @@
-# Tags: latest, 2.2.5-debian-10-r23, 2.2.5, 2-debian-10, 2
+# Tags: latest, 2.3.0-debian-10-r1, 2.3.0, 2-debian-10, 2
 FROM bitnami/airflow-scheduler:latest
-FROM bitnami/airflow-scheduler:2.2.5-debian-10-r23
-FROM bitnami/airflow-scheduler:2.2.5
+FROM bitnami/airflow-scheduler:2.3.0-debian-10-r1
+FROM bitnami/airflow-scheduler:2.3.0
 FROM bitnami/airflow-scheduler:2-debian-10
 FROM bitnami/airflow-scheduler:2
 
 # Tags: _
 FROM bitnami/airflow-scheduler:_
+
+# Tags: 2.3.0-debian-10-r0
+FROM bitnami/airflow-scheduler:2.3.0-debian-10-r0
+
+# Tags: 2.2.5-debian-10-r25, 2.2.5
+FROM bitnami/airflow-scheduler:2.2.5-debian-10-r25
+FROM bitnami/airflow-scheduler:2.2.5
+
+# Tags: 2.2.5-debian-10-r24
+FROM bitnami/airflow-scheduler:2.2.5-debian-10-r24
+
+# Tags: 2.2.5-debian-10-r23
+FROM bitnami/airflow-scheduler:2.2.5-debian-10-r23
 
 # Tags: 2.2.5-debian-10-r22
 FROM bitnami/airflow-scheduler:2.2.5-debian-10-r22
@@ -83,15 +96,3 @@ FROM bitnami/airflow-scheduler:2.2.4
 
 # Tags: 2.2.4-debian-10-r38
 FROM bitnami/airflow-scheduler:2.2.4-debian-10-r38
-
-# Tags: 2.2.4-debian-10-r37
-FROM bitnami/airflow-scheduler:2.2.4-debian-10-r37
-
-# Tags: 2.2.4-debian-10-r36
-FROM bitnami/airflow-scheduler:2.2.4-debian-10-r36
-
-# Tags: 2.2.4-debian-10-r35
-FROM bitnami/airflow-scheduler:2.2.4-debian-10-r35
-
-# Tags: 2.2.4-debian-10-r34
-FROM bitnami/airflow-scheduler:2.2.4-debian-10-r34
